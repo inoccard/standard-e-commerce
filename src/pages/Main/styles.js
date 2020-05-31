@@ -14,7 +14,12 @@ export const Content = styled.View`
   align-items: center;
 `;
 
-export const Annotation = styled.Text`
-  font-size: 12px;
-  color: #333;
+export const TitleMain = styled.Text`
+  font-size: 65px;
+  color: #FFF
+`;
+
+export const Description = styled.Text`
+  font-size: 20px;
+  color: #FFF;
 `;
