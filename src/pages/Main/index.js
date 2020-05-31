@@ -1,20 +1,14 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 //import Icon from 'react-native-vector-icons/MaterialIcons';
-//import { PanGestureHandler, State } from 'react-native-gesture-handler';
-import { StyleSheet, View, Text } from 'react-native';
+//import { Drawer, Container, Header, Content,Button } from 'native-base';
+//import { Platform, StyleSheet, View, Text, TouchableOpacity, Image, Button } from 'react-native';
+import LeftSideMenu from '../menu';
+import { ContainerMain, ContentMain, Card, CardHeader, CardContent, TitleMain, Description, CardFooter, Annotation } from './styles';
 
-import { Container, Content, Card, CardHeader, CardContent, TitleMain, Description, CardFooter, Annotation } from './styles';
 
 export default function Main() {
   return (
-    <Container>
-     <Content>
-        <TitleMain>Kumby</TitleMain>
-        <Description>LOJA VIRTUAL</Description>
-      </Content>
-    </Container>
+    <LeftSideMenu/>
   );
-
-
 };
-
